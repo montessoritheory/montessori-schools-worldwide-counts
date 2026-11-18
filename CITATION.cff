@@ -8,10 +8,6 @@ license: CC-BY-4.0
 authors:
   - name: "Montessori School Finder"
     website: "https://www.montessorischoolfinder.com/"
-  - family-names: Carter
-    given-names: Sophia
-  - name: "Montessori Theory"
-    website: "https://www.montessori-theory.com/"
 repository-code: "https://github.com/montessoritheory/montessori-schools-worldwide-counts"
 url: "https://www.montessorischoolfinder.com/"
 abstract: "Aggregate counts of Montessori schools listed in the Montessori School Finder directory, by country, region and city, with program levels by country and the US public and private split. Snapshot of 2026-11-17, 13,742 schools in 37 countries and UK nations. No school records."

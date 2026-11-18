@@ -10,7 +10,7 @@
 
 This open dataset counts the Montessori schools listed in the [Montessori School Finder](https://www.montessorischoolfinder.com/) directory. It answers questions such as "how many Montessori schools are there", "Montessori schools by country" and "Montessori schools in [country]", down to the region and the city.
 
-It holds **aggregate counts only**. There are no school names, addresses, phone numbers, coordinates, ratings, reviews, websites or school ids. Every place has a `msf_url` column that opens its page on Montessori School Finder, where the schools themselves are listed. It is published by [Montessori Theory](https://www.montessori-theory.com/), the home of the Montessori guides and open datasets that sit next to the directory.
+It holds **aggregate counts only**. There are no school names, addresses, phone numbers, coordinates, ratings, reviews, websites or school ids. Every place has a `msf_url` column that opens its page on Montessori School Finder, where the schools themselves are listed. It is published by Montessori School Finder.
 
 The counts are a **directory snapshot dated 2026-11-17**, not a census. Please read the sections on coverage before drawing conclusions.
 
@@ -30,9 +30,13 @@ The counts are a **directory snapshot dated 2026-11-17**, not a census. Please r
 | Cities with a single school | 3,841 of 6,018 (64 %) |
 | US schools by type | 167 public charter, 128 public district, 5,348 private or not classified |
 
+![The directory in six numbers](images/key_numbers.png)
+
+![World map of listed Montessori schools per country](images/world_map.png)
+
 ![The 15 countries with the most listed Montessori schools](images/top_countries.png)
 
-![The 15 US states with the most listed Montessori schools](images/top_us_states.png)
+![US Montessori schools by state, one square per state](images/top_us_states.png)
 
 ![The 15 cities with the most listed Montessori schools](images/top_cities.png)
 
@@ -170,14 +174,18 @@ A different and independent count of Montessori schools comes from the 2022 Glob
 
 The [Montessori school statistics page](https://www.montessorischoolfinder.com/montessori-school-statistics/) on Montessori School Finder puts the census next to the directory counts, country by country, with the same caution about what each one measures.
 
+## Image Credits
+
+Cover photo by Anil Sharma on [Pexels](https://www.pexels.com/photo/40282969/), Pexels License. World outlines in the map from [Natural Earth](https://www.naturalearthdata.com/), public domain. Charts by Montessori School Finder.
+
 ## License and Citation
 
-**[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**. Use it, share it and adapt it, commercially or not, and credit **Montessori School Finder** with a link to **[montessorischoolfinder.com](https://www.montessorischoolfinder.com/)** and **Montessori Theory** with a link to **[montessori-theory.com](https://www.montessori-theory.com/)**.
+**[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**. Use it, share it and adapt it, commercially or not, and credit **Montessori School Finder** with a link to **[montessorischoolfinder.com](https://www.montessorischoolfinder.com/)**.
 
 ```bibtex
 @misc{msf_montessori_schools_worldwide_counts_2026,
   title  = {Montessori Schools Worldwide: Counts by Country, Region and City},
-  author = {{Montessori School Finder} and Carter, Sophia and {Montessori Theory}},
+  author = {{Montessori School Finder}},
   year   = {2026},
   url    = {https://github.com/montessoritheory/montessori-schools-worldwide-counts},
   note   = {Dataset, version 1.0, directory snapshot of 2026-11-17}
@@ -190,19 +198,19 @@ The [Montessori school statistics page](https://www.montessorischoolfinder.com/m
 
 ### Écoles Montessori dans le monde, nombres par pays, région et ville
 
-Ce jeu de données ouvert compte les écoles Montessori listées dans l'annuaire [Montessori School Finder](https://www.montessorischoolfinder.com/), publié par [Montessori Theory](https://www.montessori-theory.com/). Il contient **uniquement des totaux**, sans aucun nom d'école, adresse, téléphone, coordonnée, note ni avis.
+Ce jeu de données ouvert compte les écoles Montessori listées dans l'annuaire [Montessori School Finder](https://www.montessorischoolfinder.com/). Il contient **uniquement des totaux**, sans aucun nom d'école, adresse, téléphone, coordonnée, note ni avis.
 
 - Au 17 novembre 2026, l'annuaire liste **13 742 écoles** dans **37 pays** (l'Angleterre, l'Écosse, le pays de Galles et l'Irlande du Nord comptent chacun à part), **346 régions** et **6 018 villes**.
 - Les États-Unis (5 643), l'Inde (1 590), l'Allemagne (826), l'Irlande (750) et l'Angleterre (703) en regroupent 69 %.
 - Chaque lieu renvoie à sa page sur Montessori School Finder (`msf_url`).
 - Ce sont des chiffres d'annuaire à une date donnée, pas un recensement. La couverture est inégale selon les pays.
 
-Licence CC BY 4.0, en citant **Montessori School Finder** et **Montessori Theory**.
+Licence CC BY 4.0, en citant **Montessori School Finder** avec un lien vers [montessorischoolfinder.com](https://www.montessorischoolfinder.com/).
 
 ### Resumen en Español
 
-Conjunto de datos abierto con el número de escuelas Montessori del directorio [Montessori School Finder](https://www.montessorischoolfinder.com/), publicado por [Montessori Theory](https://www.montessori-theory.com/). Solo contiene totales por país, región y ciudad, sin nombres, direcciones, teléfonos, coordenadas, valoraciones ni reseñas. A fecha de 17 de noviembre de 2026 el directorio lista 13.742 escuelas en 37 países, 346 regiones y 6.018 ciudades. Son cifras de un directorio, no un censo, y la cobertura varía mucho según el país. Licencia CC BY 4.0.
+Conjunto de datos abierto con el número de escuelas Montessori del directorio [Montessori School Finder](https://www.montessorischoolfinder.com/). Solo contiene totales por país, región y ciudad, sin nombres, direcciones, teléfonos, coordenadas, valoraciones ni reseñas. A fecha de 17 de noviembre de 2026 el directorio lista 13.742 escuelas en 37 países, 346 regiones y 6.018 ciudades. Son cifras de un directorio, no un censo, y la cobertura varía mucho según el país. Licencia CC BY 4.0, con crédito a Montessori School Finder y enlace a montessorischoolfinder.com.
 
 ---
 
-**Part of the Montessori School Finder open data collection**, published by [Montessori Theory](https://www.montessori-theory.com/).
+**Part of the [Montessori School Finder open datasets](https://github.com/montessoritheory/montessori-schools-open-data).** Directory at [montessorischoolfinder.com](https://www.montessorischoolfinder.com/).
