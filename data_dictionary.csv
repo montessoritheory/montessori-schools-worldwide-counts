@@ -1,0 +1,49 @@
+file,column,type,description,example
+by_country.csv,country_code,str,"Country code, ISO 3166-1 alpha-2. England, Scotland, Wales and Northern Ireland are separate rows coded GB-ENG, GB-SCT, GB-WLS and GB-NIR",DE
+by_country.csv,iso2,str,Real ISO 3166-1 alpha-2 code (GB for the four UK nations),GB
+by_country.csv,country,str,Country name as used on Montessori School Finder,Germany
+by_country.csv,schools,integer,Schools listed in the directory for this country,826
+by_country.csv,share_of_directory_pct,number,Share of all listed schools in percent,6.01
+by_country.csv,cities_with_schools,integer,Cities with at least one school. Same as the number of city pages of the country,428
+by_country.csv,regions_with_schools,integer,"Regions (states, counties, provinces) with at least one school",16
+by_country.csv,verified_schools,integer,Schools with the Verified Montessori status. Blank when the country has fewer than 10 schools,591
+by_country.csv,verified_share_pct,number,verified_schools divided by schools in percent. Blank when the country has fewer than 10 schools,71.5
+by_country.csv,msf_url,str,Country page on Montessori School Finder,https://www.montessorischoolfinder.com/locations/germany/
+by_country.csv,directory_date,date,Date of the directory snapshot,2026-11-17
+by_region.csv,country_code,str,"Country code, as in by_country.csv",IE
+by_region.csv,country,str,Country name,Ireland
+by_region.csv,region_code,str,"Region code used by the directory. Read it as text, some codes have leading zeros",dublin
+by_region.csv,region,str,"Region name. US state, Irish county, Scottish council area, English region and so on",Dublin
+by_region.csv,schools,integer,Schools listed in the region,271
+by_region.csv,cities_with_schools,integer,Cities with at least one school in the region,55
+by_region.csv,msf_url,str,Region page on Montessori School Finder,https://www.montessorischoolfinder.com/locations/ireland/dublin/
+by_region.csv,directory_date,date,Date of the directory snapshot,2026-11-17
+by_city.csv,country_code,str,"Country code, as in by_country.csv",US
+by_city.csv,country,str,Country name,United States
+by_city.csv,region,str,Region name,Texas
+by_city.csv,city,str,City name in English or ASCII form from GeoNames,Houston
+by_city.csv,geonames_id,integer,GeoNames identifier of the place (an open geographic id, not a school id),4699066
+by_city.csv,schools,integer,Schools listed in the city. A count of 1 is possible,76
+by_city.csv,msf_url,str,City page on Montessori School Finder,https://www.montessorischoolfinder.com/locations/united-states/texas/houston/
+by_city.csv,directory_date,date,Date of the directory snapshot,2026-11-17
+programs_by_country.csv,country_code,str,Country code. OTHER combines the countries with fewer than 10 schools. ALL is the world total,FR
+programs_by_country.csv,country,str,Country name or group label,France
+programs_by_country.csv,schools,integer,Schools listed,555
+programs_by_country.csv,infant,integer,Schools whose listing includes an infant program. One school can count in several program columns,94
+programs_by_country.csv,toddler,integer,Schools with a toddler program,0
+programs_by_country.csv,daycare,integer,Schools with a daycare program,113
+programs_by_country.csv,preschool,integer,Schools with a preschool program,113
+programs_by_country.csv,kindergarten,integer,Schools with a kindergarten program,0
+programs_by_country.csv,elementary,integer,Schools with an elementary program,70
+programs_by_country.csv,middle_school,integer,Schools with a middle school program,26
+programs_by_country.csv,high_school,integer,Schools with a high school program,16
+programs_by_country.csv,no_program_listed,integer,Schools where no program level is known,298
+programs_by_country.csv,directory_date,date,Date of the directory snapshot,2026-11-17
+us_public_private_split.csv,country_code,str,Always US,US
+us_public_private_split.csv,schools,integer,US schools listed,5643
+us_public_private_split.csv,public_charter,integer,Schools identified as public charter schools in official US records,167
+us_public_private_split.csv,public_district,integer,Schools identified as public district schools in official US records,128
+us_public_private_split.csv,private_or_not_classified,integer,All other US schools. Mostly private plus schools not matched to an official record,5348
+us_public_private_split.csv,directory_date,date,Date of the directory snapshot,2026-11-17
+summary.csv,metric,str,Name of the headline figure or check,total_schools
+summary.csv,value,str,Value of the figure,13742
