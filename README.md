@@ -176,7 +176,7 @@ The [Montessori school statistics page](https://www.montessorischoolfinder.com/m
 
 ## Image Credits
 
-Cover photo by Anil Sharma on [Pexels](https://www.pexels.com/photo/40282969/), Pexels License. World outlines in the map from [Natural Earth](https://www.naturalearthdata.com/), public domain. Charts by Montessori School Finder.
+World outlines in the map from [Natural Earth](https://www.naturalearthdata.com/), public domain. Charts by Montessori School Finder.
 
 ## License and Citation
 
