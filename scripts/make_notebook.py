@@ -8,7 +8,7 @@ nb = nbf.v4.new_notebook()
 md, code = nbf.v4.new_markdown_cell, nbf.v4.new_code_cell
 nb.cells = [
     md("# Montessori Schools Worldwide: Counts by Country, Region and City\n\n"
-       "Starter notebook for the open dataset from [Montessori School Finder](https://www.montessorischoolfinder.com/), published by [Montessori Theory](https://www.montessori-theory.com/). "
+       "Starter notebook for the open dataset from [Montessori School Finder](https://www.montessorischoolfinder.com/). "
        "The files hold aggregate counts only. Every row has a `msf_url` that opens the matching place page on Montessori School Finder.\n\n"
        "Read the counts as a directory snapshot, not as a census."),
     code("import pandas as pd\nimport matplotlib.pyplot as plt\n\n"
@@ -47,7 +47,7 @@ nb.cells = [
          "(world[cols] / world.schools * 100).round(1).sort_values(ascending=False)"),
     md("## Find a Place Page\n\nEach row links to its page on Montessori School Finder."),
     code("city[(city.country == 'Ireland') & (city.region == 'Dublin')][['city', 'schools', 'msf_url']].head()"),
-    md("## Citation\n\nMontessori School Finder and Montessori Theory (2026). *Montessori Schools Worldwide: Counts by Country, Region and City*. CC BY 4.0. "
+    md("## Citation\n\nMontessori School Finder (2026). *Montessori Schools Worldwide: Counts by Country, Region and City*. CC BY 4.0. "
        "https://www.montessorischoolfinder.com/"),
 ]
 nb.metadata["kernelspec"] = {"display_name": "Python 3", "language": "python", "name": "python3"}
